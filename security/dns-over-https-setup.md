@@ -13,26 +13,26 @@ Essential browser security configuration to protect against DNS tracking and spo
 1. **DNS over HTTPS (DoH) -** Encrypts DNS queries to prevent eavesdropping
 2. **Trusted Recursive Resolver -** Uses a privacy-focused DNS provider instead of potentially untrustworthy network defaults
 
-## Chrome Setup (Recommended)
-
-1. Open Chrome Settings → Privacy and Security → Security
-2. Scroll to "Advanced" section
-3. Enable "Use secure DNS"
-4. Choose "Cloudflare (1.1.1.1)" from the "Select DNS provider" dropdown
-
-### Why Cloudflare (1.1.1.1)?
+### Recommended DNS Provider: Cloudflare (1.1.1.1)
 
 - Commits to deleting personally identifiable data after 24 hours
 - No third-party data sharing
 - Regular privacy audits
 - Same provider Mozilla partnered with for Firefox
 
-## Firefox Setup (Alternative)
+## Firefox Setup (Recommended)
 
 1. Open Firefox Settings → Privacy & Security
 2. Scroll to "DNS over HTTPS"
 3. Enable "Max Protection"
 4. Provider should default to Cloudflare
+
+## Chrome Setup (Alternative)
+
+1. Open Chrome Settings → Privacy and Security → Security
+2. Scroll to "Advanced" section
+3. Enable "Use secure DNS"
+4. Choose "Cloudflare (1.1.1.1)" from the "Select DNS provider" dropdown
 
 ## Verification
 
