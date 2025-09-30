@@ -13,13 +13,7 @@ Use `autocomplete="new-password"` on password fields for registration and passwo
 ### Implementation
 
 ```html
-<!-- Registration form -->
-<input type="password" autocomplete="new-password" />
-
-<!-- Password change form -->
-<!-- Old password -->
-<input type="password" />
-<!-- New password -->
+<!-- For new password registration/change forms -->
 <input type="password" autocomplete="new-password" />
 ```
 
