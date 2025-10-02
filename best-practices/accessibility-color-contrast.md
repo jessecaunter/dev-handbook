@@ -33,13 +33,12 @@ Check contrast ratios when choosing colors, updating designs, or during accessib
 
 ### Browser Support
 
-**Firefox DevTools:** Contrast ratio display with WCAG level indicators (AA, AAA)
+- **Firefox DevTools:** Contrast ratio display with WCAG level indicators (AA, AAA)
 
-**Chrome and Edge DevTools:** Contrast ratio display with expandable details
-
-- Shows AA and AAA compliance status
-- Suggests alternative colors when requirements aren't met
-- Access via "Show more" arrow in contrast ratio section
+- **Chrome and Edge DevTools:** Contrast ratio display with expandable details
+  - Shows AA and AAA compliance status
+  - Suggests alternative colors when requirements aren't met
+  - Access via "Show more" arrow in contrast ratio section
 
 ### References
 
